@@ -1,0 +1,11 @@
+distance_control : 
+  gain : [0.25 ,0.01 ,0.0]
+  max_sum_error : 100
+  min_error : 0.01
+  max_output : 2.0 
+
+angle_control : 
+  gain : [0.5 ,0.01 ,0.0]
+  max_sum_error : 100
+  min_error : 0.03
+  max_output : 2.0 

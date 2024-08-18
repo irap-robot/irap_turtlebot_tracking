@@ -1,0 +1,7 @@
+<launch>
+    <include file="$(find irap_turtlebot_tracking)/launch/box_detection.launch"/>
+    
+    <node pkg="irap_turtlebot_tracking" type="turtlebot_drive.py" name="turtlebot_drive" output="screen">
+        <rosparam command="load" file="$(find irap_turtlebot_tracking)/config/turtlebot_control.yaml"/>
+    </node>
+</launch>

@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="irap_turtlebot_tracking" type="box_detection.py" name="box_detection" output="screen"/>
+</launch>
